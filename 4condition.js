@@ -33,3 +33,21 @@ else{
 // ternary operator
 var memeber = true;
 memeber ? console.log("he is memeber"):console.log("not a memeber");
+
+// switch case
+  var user = "tester";
+  switch (user) {
+      case "admin":
+          console.log(" in admin");
+          break;
+          case "subadmin":
+            console.log(" in subadmin");
+            break;
+            case "tester":
+                console.log(" in tester");
+                break;
+  
+      default:
+          console.log("trial user in default");
+          break;
+  }
